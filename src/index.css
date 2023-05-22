@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-image: url("https://popmenucloud.com/cdn-cgi/image/width%3D1440%2Cheight%3D1440%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/myfnbshw/e94ee827-b16b-4557-bf41-fb49f36f2664.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  transform: translateY((offset * 0.5)px);
+ 
+}
+
+
